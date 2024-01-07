@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class= 'z-depth-3 teal lighten-2'>
+    <!-- <nav class= 'z-depth-3 teal lighten-2'>
       <div class="nav-wrapper container">
         <header class="brand-logo">
           <p>NICHOLAS WINTON</p>
@@ -41,7 +41,30 @@
                 <i class="material-icons">menu</i>
             </a>
         </div>
-    </nav>
+    </nav> -->
+    <nav class='z-depth-3 teal lighten-2'>
+      <div class="nav-wrapper container">
+          <header class="brand-logo">
+              <p>NICHOLAS WINTON</p>
+          </header>
+
+          <ul class="right hide-on-med-and-down">
+              <li><a href="/">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#list">The List</a></li>
+              <li><a href="#exhibition">Exhibition</a></li>
+          </ul>
+          <ul id="slide-out" class="sidenav teal lighten-2">
+              <li><a class="white-text" href="/">Home</a></li>
+              <li><a class="white-text" href="#about">About</a></li>
+              <li><a class="white-text" href="#list">The List</a></li>
+              <li><a class="white-text" href="#exhibition">Exhibition</a></li>
+          </ul>
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+          </a>
+      </div>
+  </nav>
     <main class='container' id = 'container'>
       <div class="row">
         <div class="col s12 m12 l6">
@@ -129,8 +152,7 @@
             />
           </div>
           <div class='title center'>
-            <span class="card-title black-text">Czech & Slovak</span>
-            
+            <span class="card-title black-text" id="card-title">Czech & Slovak</span>
           </div>
           <div class="card-content">
            
@@ -243,22 +265,11 @@
     <!-- JavaScript at the end of the body for optimized loading -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <!-- Custom script for initializing sideNav -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize the sideNav
-            var sideNav = M.Sidenav.init(document.querySelector(".sidenav"));
-
-            // Add click event listeners to sideNav items
-            var sideNavLinks = document.querySelectorAll(".sidenav a");
-            sideNavLinks.forEach(function(link) {
-                link.addEventListener("click", function() {
-                    // Close the sideNav when a link is clicked
-                    sideNav.close();
-                });
-            });
-        });
-     
-    </script>
+      document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          M.Sidenav.init(elems);
+      });
+  </script>
 </body>
 </html>
