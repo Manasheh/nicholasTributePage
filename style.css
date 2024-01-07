@@ -42,11 +42,9 @@ main{
   height : 620px;
 }
 .card-title {
-    font-weight: bold;
-}
-.card span {
-    color: red;
+  font-weight: bold;
 }
 footer {
   margin-top: 50px;
 }
+
