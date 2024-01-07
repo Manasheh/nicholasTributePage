@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+.container {
+    flex: 1;
+  }
+nav {
+ position: fixed;
+ top: 0;
+ z-index: 10;
+}
+.nav-wrapper {
+  padding: 0 20px;
+}
+main{
+  position: relative;
+  top: 3.5rem;
+}
+.row {
+  margin-top: 2rem;
+}
+.container p {
+  margin-top: 0;
+}
+#about h5,#list h5, #exhibition h5 {
+  margin-bottom: 1.5rem;
+  font-weight:500;
+}
+.names {
+  font-size: 1rem;
+}
+#exhibition span {
+  font-weight: 400;
+}
+.card {
+  height : 620px;
+}
+footer {
+  margin-top: 50px;
+}
