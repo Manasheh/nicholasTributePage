@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
   }
   
-.container {
+main {
     flex: 1;
   }
 nav {
@@ -37,6 +37,12 @@ main{
 }
 .card {
   height : 620px;
+}
+.card-title {
+    font-weight: bold;
+}
+.card span {
+    color: red;
 }
 footer {
   margin-top: 50px;
