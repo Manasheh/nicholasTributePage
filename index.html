@@ -14,14 +14,17 @@
 
     <!-- Let browser know website is optimized for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    
+    <link rel="stylesheet" href="style.css">
     <title>Nicholas Winton</title>
 </head>
 
 <body>
     <nav class= 'z-depth-3 teal lighten-2'>
-        <div class="nav-wrapper container">
-            <header class="brand-logo">Sir Nicholas Winton</header>
+      <div class="nav-wrapper container">
+        <header class="brand-logo">
+          <h5>Nicholas Winton</h5>
+        </header>
+            
             <ul class="right hide-on-med-and-down">
                 <li><a href="/">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -29,12 +32,11 @@
                 <li><a href="#exhibition">Exhibition</a></li>
             </ul>
             <ul id="slide-out" class="sidenav teal lighten-2">
-        <li><a class="white-text" href="/">Home</a></li>
-        <li><a class="white-text" href="#about">About</a></li>
-        <li><a class="white-text" href="#list">The List</a></li>
-        <li><a class="white-text" href="#exhibition">Exhibition</a></li>
-              
-    </ul>
+                <li><a class="white-text" href="/">Home</a></li>
+                <li><a class="white-text" href="#about">About</a></li>
+                <li><a class="white-text" href="#list">The List</a></li>
+                <li><a class="white-text" href="#exhibition">Exhibition</a></li>
+            </ul>
             <a href="#" data-target="slide-out" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
             </a>
@@ -50,7 +52,7 @@
           </p>
         </div>
         <div class="col s12 m12 l6">
-          <div class="video-container">
+          <div class="video-container" style = 'margin-top: 1rem'>
                             <iframe width="1904" height="776" src="https://www.youtube.com/embed/r9VhKjexnCQ" title="The Story of Sir Nicholas Winton" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
           </div>
@@ -61,10 +63,10 @@
       <div class="row">
 <!--         <header class='white-text center-align orange'>About Sir Nicholas Winton</header> -->
           <h5 class='center'>About Sir Nicholas</h5>
-        <div class="col s12 m6 l6">
+        <div class="col s12 m12 l6"  style="margin-top: 0.5rem">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Nicholas_Winton_in_Prague.jpg/1200px-Nicholas_Winton_in_Prague.jpg" class='responsive-img' alt="">
         </div>
-        <div class="col s12 m6 l6 about">
+        <div class="col s12 m12 l6 about">
           <p>
             <em>Sir Nicholas George Winton</em>, born on May 19, 1909, became an unsung hero whose remarkable deeds saved the lives of hundreds during the tumultuous times of World War II. A British stockbroker by trade, Winton's journey into heroism began in 1938 when he visited Prague and witnessed the desperate situation of Jewish refugees escaping Nazi-occupied Czechoslovakia. Responding to the urgency of the moment, Winton orchestrated the Czech Kindertransport, a daring rescue mission that transported 669 children to safety in Britain. What distinguishes Winton's story is the modesty with which he carried out his life-saving efforts. For nearly 50 years, he kept his actions hidden, only coming to light in 1988. Knighted by <strong>Queen Elizabeth II</strong> in 2003, Sir Nicholas Winton's legacy epitomizes the profound impact of one individual's compassion and resilience in the face of adversity.
             His humanitarian accomplishments were not confined to the past, as Winton continued to advocate for justice and altruism throughout his life. Devoting his later years to various charitable endeavors, he inspired others to follow in his footsteps, leaving an indelible mark on the philanthropic landscape.  Winton's legacy serves as a timeless reminder that the ripple effects of compassion and selflessness extend far beyond the immediate circumstances, shaping a brighter future for generations to come...
@@ -89,34 +91,32 @@
       </section>
     </section>
       <hr> 
-  <section id='exhibition' class='container'>
-    <h5 class='center'>Exhibition</h5>
-<!--     <br> -->
-    <p>
-      <em>Sir Nicholas Winton</em> serves as a poignant testament to the remarkable humanitarian efforts of this British hero. Capturing the essence of his life and legacy, the exhibition unfolds the narrative of Winton's daring rescue mission, the Czech Kindertransport, during the tumultuous times of World War II. Through a carefully curated display of artifacts, photographs, and personal accounts, visitors are immersed in the historical context and the profound impact of Winton's actions in saving the lives of 669 children. The exhibition not only chronicles the logistics of this extraordinary rescue but also delves into the emotional and human aspects, showcasing the stories of those whose lives were forever changed. <em>Winton's</em> humility, resilience, and compassion come to life, inspiring a new generation to reflect on the power of individual actions in making a difference. The exhibition stands as a living tribute to <em>Sir Nicholas Winton</em>, ensuring that his legacy of courage and humanity continues to resonate and educate.
-    </p>
+  <section id='exhibition' >
     <div class="row">
+      <h5 class='center'>Exhibition</h5>
+  <!--     <br> -->
+      <p>
+        <em>Sir Nicholas Winton</em> serves as a poignant testament to the remarkable humanitarian efforts of this British hero. Capturing the essence of his life and legacy, the exhibition unfolds the narrative of Winton's daring rescue mission, the Czech Kindertransport, during the tumultuous times of World War II. Through a carefully curated display of artifacts, photographs, and personal accounts, visitors are immersed in the historical context and the profound impact of Winton's actions in saving the lives of 669 children. The exhibition not only chronicles the logistics of this extraordinary rescue but also delves into the emotional and human aspects, showcasing the stories of those whose lives were forever changed. <em>Winton's</em> humility, resilience, and compassion come to life, inspiring a new generation to reflect on the power of individual actions in making a difference. The exhibition stands as a living tribute to <em>Sir Nicholas Winton</em>, ensuring that his legacy of courage and humanity continues to resonate and educate.
+      </p>
       <div class="col s12 m6 l4 xl4">
     
         <div class="card hoverable">
-          <div class="card-image">
+              <div class="card-image">
             <img
               src="https://www.nicholaswinton.com/images/PortalsBackgrounds/n3iunOqvUnH9Cch.jpg?v=8"
               class="responsive-img"
-
               alt=""
             />
           </div>
           <div class='title center'>
             <span class="card-title black-text">Early Life</span>
-            
           </div>
           <div class="card-content">
-            <p class='center'>
+            <!-- <p class='center'>
               Nicholas George Wertheim, known as Nicky, was born on 19th May 1909 in Hampstead, London
-            </p>
+            </p> -->
           </div>
-        <div class="card-action center" id='one'>
+        <div class="card-action center">
           <a href="" class="btn teal lighten-2">Discover</a>
         </div>
       </div>
@@ -128,21 +128,20 @@
             <img
               src="https://www.nicholaswinton.com/images/PortalsBackgrounds/5Slw83mSnIrChVb.jpg?v=8"
               class="responsive-img"
-
               alt=""
             />
           </div>
           <div class='title center'>
-            <span class="card-title black-text">Czech & Slovak Kindertransport</span>
+            <span class="card-title black-text">Czech & Slovak</span>
             
           </div>
           <div class="card-content">
-            <p class='center'>
+            <!-- <p class='center'>
               The Word 'Kindertransport is used to describe the large scale transportation
               by train of ten thousand endangered, mostly Jewish children from Austria.'
-            </p>
+            </p> -->
           </div>
-        <div class="card-action center" id = 'two'>
+        <div class="card-action center">
           <a href="" class="btn teal lighten-2">Discover</a>
         </div>
       </div>
@@ -158,15 +157,15 @@
             />
           </div>
           <div class='title center'>
-            <span class="card-title black-text">War time & post war work</span>
+            <span class="card-title black-text">War time</span>
           </div>
           <div class="card-content">
-            <p class='center'>
+            <!-- <p class='center'>
               Nicky left the Stock exchange in August 1939, to volunteer as leader of his
               local Air Raid Precautions depot being set up by Hampstead council.
-            </p>
+            </p> -->
           </div>
-        <div class="card-action center" id = 'three'>
+        <div class="card-action center">
           <a href="" class="btn teal lighten-2">Discover</a>
         </div>
       </div>
@@ -184,15 +183,15 @@
             />
           </div>
           <div class='title center'>
-            <span class="card-title black-text">Family & Community</span>
+            <span class="card-title black-text">Community</span>
             
           </div>
           <div class="card-content">
-            <p class='center'>
+            <!-- <p class='center'>
               It was while working for the International Bank for Reconstruction and Development in Paris that Nicky encountered his future wife Grete Gjelstrup, the Danish secretary of his employer.
-            </p>
+            </p> -->
           </div>
-        <div class="card-action center" id='four'>
+        <div class="card-action center">
           <a href="" class="btn teal lighten-2">Discover</a>
         </div>
       </div>
@@ -213,11 +212,11 @@
             
           </div>
           <div class="card-content">
-            <p class='center'>
+            <!-- <p class='center'>
               In 1987 Nicky was introduced to Dr Elizabeth Maxwell while trying to find a suitable home for his Kindertransport papers enclosed in a scrapbook.
-            </p>
+            </p> -->
           </div>
-        <div class="card-action center" id = 'five'>
+        <div class="card-action center">
           <a href="" class="btn teal lighten-2">Discover</a>
         </div>
       </div>
@@ -234,15 +233,15 @@
             />
           </div>
           <div class='title center'>
-            <span class="card-title black-text">Building on Nicky's Legacy</span>
+            <span class="card-title black-text">Nicky's Legacy</span>
             
           </div>
           <div class="card-content">
-            <p class= 'center'>
+            <!-- <p class= 'center'>
               Nicky's legacy is primariy that more than 6000 people are now alive because of the Kindertransport rescue.
-            </p>
+            </p> -->
           </div>
-        <div class="card-action center" id = 'six'>
+        <div class="card-action center">
           <a href="" class="btn teal lighten-2">Discover</a>
         </div>
       </div>
@@ -251,13 +250,9 @@
     </div>
   </section>
     </main>
- <footer class="page-footer teal lighten-2">
-    <div class="container">
-        <div class="center-align white-text">
-            <p>&copy; 2024 All rights reserved. Website under construction. Stay tuned for updates!</p>
-        </div>
-    </div>
-</footer>
+    <footer class="page-footer teal lighten-2" id="footer">
+        <p>© 2014 Copyright@Menashe</p>
+    </footer>
   
 
     <!-- JavaScript at the end of the body for optimized loading -->
