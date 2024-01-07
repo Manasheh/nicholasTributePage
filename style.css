@@ -9,9 +9,18 @@ header p {
   font-size: 1.5rem;
   
 }
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 380px) {
   header p {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 381px) {
+  header p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
   }
 }
 main {
