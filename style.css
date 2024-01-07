@@ -1,18 +1,19 @@
-/* body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
 
-main {
-  flex: 1 0 auto;
-} */
 nav {
  position: fixed;
  top: 0;
  z-index: 100;
 }
 
+header p {
+  font-size: 1.5rem;
+  
+}
+@media only screen and (max-width: 420px) {
+  header p {
+    font-size: 1rem;
+  }
+}
 main {
   position: relative;
   top: 3.5rem;
@@ -33,17 +34,11 @@ main {
 #exhibition span {
   font-weight: 400;
 }
-/* .card {
-  height : 620px;
-} */
+
 .card-title {
   font-weight: bold;
 }
-/* footer {
-  margin-top: 50px;
-  background-color: teal;
-  height: 60px;
-} */
+
 #footer {
   margin-top: 60px;
   height: 100px;
